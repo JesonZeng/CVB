@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+/*a,img{*/
+    /*border:0;*/
+/*}*/
+body{
+    font:12px/180% Arial, Helvetica, sans-serif, "新宋体";
+}
+/* focus */
+#focus{
+    width:1349px;
+    height:720px;
+    margin:0 auto;
+}
+#focus div{
+    position:absolute;
+    width:1349px;
+    height:720px;
+    overflow:hidden;
+}
+#focus img{
+    width:1349px;
+    height:720px;
+}
+#focus #focus_img{
+    display:none;
+}
+#btn{
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index:3;
+}
+#ENTER:hover{
+    background-color: #8c8066;
+    color: black;
+    transition: all 1s linear;
+}
+
+#ENTER{
+    color: white;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid white;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+}
